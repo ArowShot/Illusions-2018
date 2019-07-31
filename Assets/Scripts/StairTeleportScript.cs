@@ -12,7 +12,7 @@ public class StairTeleportScript : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter(Collision col)
+    private void OnControllerColliderHit(ControllerColliderHit col)
     {
         if (goingUpTeleport)
         {
