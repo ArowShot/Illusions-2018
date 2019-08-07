@@ -460,8 +460,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.06477916, y: 1.2603964, z: 0.7418003}
-  m_Center: {x: 0.04933192, y: 0.13019824, z: 0.44775677}
+  m_Size: {x: 0.017926767, y: 1.2603964, z: 0.7418003}
+  m_Center: {x: 0.072758116, y: 0.13019824, z: 0.44775677}
 --- !u!114 &1357162280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,8 +475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goingUpTeleport: 1
-  goingUpTeleportTarget: {x: 0.14, y: -1.67, z: 0.26}
+  goingUpTeleportTarget: {x: 0.14, y: -1.693869, z: 0.26}
   goingDownTeleportTarget: {x: 0, y: -0.108, z: 1.02}
+  targetY: -1.693869
 --- !u!4 &1357162281
 Transform:
   m_ObjectHideFlags: 0
@@ -694,7 +695,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goingUpTeleport: 0
   goingUpTeleportTarget: {x: 0.14, y: -1.67, z: 0.26}
-  goingDownTeleportTarget: {x: 0, y: -0.108, z: 1.02}
+  goingDownTeleportTarget: {x: 0, y: -0.2883886, z: 1.02}
+  targetY: -0.2883886
 --- !u!4 &1933463059
 Transform:
   m_ObjectHideFlags: 0
@@ -720,8 +722,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12029129, y: 1.1106108, z: 0.5182419}
-  m_Center: {x: -0.25556383, y: 0.260351, z: -0.24087906}
+  m_Size: {x: 0.036303014, y: 1.1106108, z: 0.5182419}
+  m_Center: {x: -0.29755795, y: 0.260351, z: -0.24087906}
 --- !u!1 &2063627367
 GameObject:
   m_ObjectHideFlags: 0
